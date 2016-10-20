@@ -1,0 +1,39 @@
+3.1.6
+Number of calls to put() is D, number of calls to get() is W-D
+3.1.8
+guillotine
+3.2.1
+The comparison is 26.
+3.2.9
+ Use parenthetic notation to represent  answers, where O is an arbitrary node value, and nil is an empty child.
+N = 2
+ O[O nil] 
+O [nil O] 
+N = 3 
+O [O [O nil] nil] 
+O [O [nil O] nil] 
+O [nil O [O nil]] 
+O [nil O [nil O]] 
+O [O O]
+N = 4  
+O [nil O [O [O nil] nil]] 
+O [nil O [O [nil O] nil]] 
+O [nil O [nil O [O nil]]] 
+O [nil O [nil O [nil O]]] 
+O [nil O [O O]] 
+O [O [O [O nil] nil] nil] 
+O [O [O [nil O] nil] nil] 
+O [O [nil O [O nil]] nil] 
+O [O [nil O [nil O]] nil]
+O [O [O O] nil] 
+O [O [O nil] O] 
+O [O [nil O] O] 
+O [O O [O nil]] 
+O [O O [nil O]]
+4.
+2^N
+5.
+2^(N+1) -1
+
+
+
